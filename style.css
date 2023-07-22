@@ -1,0 +1,663 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Inter:wght@300;400;500&family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    height: 59px;
+    display: flex;
+    align-items: center;
+    background-color: #FAF5E5;
+    animation-name: anim;
+    animation-duration: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: #171717E5;
+    ;
+}
+
+.conteiner {
+    width: 1280px;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div__right {
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.p__waygood {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.a__right {
+    font-weight: 400;
+    font-size: 11px;
+}
+
+.div__meeting {
+    width: 313px;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 51px;
+}
+
+.div__left {
+    width: 600px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meeting {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mein {
+    background-color: #FAF5E5;
+}
+
+.and {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.line {
+    width: 440px;
+    height: 1px;
+    background-color: black;
+    margin-top: 80px;
+}
+
+.img__Chicken {
+    margin-top: 50px;
+}
+
+.section__2 {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.div__2 {
+    width: 640px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.GATHER {
+    width: 285px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 51px;
+}
+
+.waygood {
+    width: 374px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.king {
+    width: 283px;
+    margin-top: 50px;
+}
+
+.section__tex {
+    width: 339px;
+    margin-top: 50px;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.Book {
+    margin-top: 50px;
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.Man {
+    width: 282px;
+}
+
+.section__3 {
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.div_3__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.Belly {
+    width: 353px;
+    font-weight: 400;
+    font-size: 59px;
+    margin-top: 30px;
+}
+
+.Our__menu {
+    width: 379px;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.View {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 30px;
+    text-decoration: underline;
+}
+
+.Whether {
+    width: 390px;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+.Book {
+    text-decoration: underline;
+}
+
+.div_3__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.servis {
+    height: 800px;
+    background-color: #9c421f;
+}
+
+.servis__wrapper {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.servis__Meet {
+    width: 404px;
+    height: 539px;
+}
+
+.servis__right {
+    width: 50%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servis__right p,
+.servis__right h2 {
+    margin-top: 30px;
+}
+
+.servis__text {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    width: 123px;
+}
+
+.servis__title {
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 63px;
+    width: 259px;
+}
+
+.servis__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    width: 438px;
+}
+
+.servis__note {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    width: 89px;
+}
+
+.need {
+    background-color: #FAF5E5;
+    margin-bottom: 66px;
+}
+
+.need__wrapper {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.need__right {
+    margin-top: 98px;
+    width: 40%;
+}
+
+.need__left {
+    margin-top: 66px;
+}
+
+.need__gift {
+    text-transform: uppercase;
+    margin-bottom: 38px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    width: 119px;
+}
+
+.need__voucher {
+    margin-bottom: 51px;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 63px;
+    width: 371px;
+}
+
+.need__give {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    width: 389px;
+}
+
+.lasania {
+    display: flex;
+    justify-content: center;
+}
+
+.news {
+    height: 511px;
+    width: 1280px;
+    margin: 0 auto;
+    margin-top: 92px;
+    border-bottom: 1px solid black;
+}
+
+.news__information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news__note {
+    width: 179px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 2.08px;
+    margin-bottom: 74px;
+}
+
+.news__title {
+    width: 577px;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 33.8px;
+    letter-spacing: 0.78px;
+    margin-bottom: 65px;
+}
+
+.news__input {
+    border: 1px solid black;
+    background-color: #FAF5E5;
+    padding: 5px;
+    margin-right: 11px;
+}
+
+.news__button {
+    width: 99px;
+    height: 22px;
+    color: #FFFFFF;
+    background-color: #222222;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+}
+
+.family {
+    width: 1280px;
+    height: 849px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.family__women {
+    margin-top: 83px;
+}
+
+.family__right {
+    margin-top: 145px;
+    margin-left: 126px;
+}
+
+.family__paragraf {
+    width: 150px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    margin-bottom: 38px;
+}
+
+.family__all {
+    width: 323px;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 63px;
+    margin-bottom: 48px;
+}
+
+.family__meet {
+    width: 201px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-bottom: 3px;
+}
+
+.family__note {
+    width: 326px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-bottom: 14px;
+}
+
+.family__pioner {
+    width: 336px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-bottom: 37px;
+}
+
+.family__line {
+    border: 1px solid black;
+}
+
+.family__juliet {
+    width: 187px;
+    margin-top: 42px;
+}
+
+.family__punch {
+    width: 185px;
+    margin-top: 41px;
+}
+
+.family__down__line {
+    margin-top: 23px;
+    margin: 0 auto;
+    width: 1280px;
+    border: 1px solid black;
+}
+
+.information {
+    height: 653px;
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.information__diners {
+    margin-top: 23px;
+    width: 150px;
+}
+
+.information__street {
+    margin-top: 73px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    width: 334px;
+}
+
+.information__numer {
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    width: 118px;
+}
+
+.information__mans {
+    margin-top: 24px;
+    width: 175px;
+}
+
+.information__internet {
+    display: flex;
+    justify-content: space-between;
+    text-decoration-line: underlines;
+
+}
+
+.information__instagram {
+    margin-right: 10px;
+    border-bottom: 1px solid #0000004D;
+}
+
+.information__facebook {
+    border-bottom: 1px solid #0000004D;
+}
+
+.information__tuesday {
+    margin-top: 15px;
+}
+
+.information__line {
+    border: 1px solid black;
+}
+
+.footer {
+    border-top: 1px solid black;
+    height: 241px;
+    background-color: #FFD36B;
+}
+
+.footer__wraper {
+
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.footer__left {
+    width: 400px;
+    border-right: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__left img {
+    width: 180px;
+    height: 180px;
+}
+
+.footer__right {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer__top {
+    margin-left: 41.34px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__information {
+    width: 33%;
+}
+
+.footer__title {
+    width: 92px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    margin-top: 29px;
+    margin-bottom: 18px;
+}
+
+.footer__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-bottom: 2px;
+}
+
+.footer__note {
+    width: 245px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-bottom: 6px;
+    border-bottom: 1px solid #0000004D;
+}
+
+.footer__hours {
+    width: 124px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 13px;
+    margin-top: 39px;
+    margin-bottom: 18px;
+}
+
+.footer__tuesday {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+}
+
+.footer__socials {
+    width: 13px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    margin-top: 39px;
+    margin-bottom: 18px;
+}
+
+.footer__information1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer__instagram {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #0000004D;
+}
+
+.footer__facebook {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    border-bottom: 1px solid #0000004D;
+}
+
+.footer__bottom {
+    border-top: 1px solid black;
+    display: flex;
+    justify-content: space-around;
+    height: 30px;
+    align-items: center;
+}
+
+.footer__2022 {
+    width: 103px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.footer__barry {
+    width: 132px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.footer__kris {
+    width: 197px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+.footer__studio {
+    width: 201px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+main {
+    animation-name: anim;
+    animation-duration: 0.3s;
+}
+
+.a__right:hover {
+    transform: rotate(20deg);
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes anim {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
